@@ -20,7 +20,7 @@ const diasAteOEvento = Math.floor(distanciaAteOEvento / diaEmMs);
     const minutosAteOEvento = Math.floor ((distanciaAteOEvento % horaEmMs) / minutoEmMs);
     const segundosAteOEvento =Math.floor ((distanciaAteOEvento % minutoEmMs)/ 1000);
 
-    document.getElementById("timer").innerHTML = `${diasAteOEvento}d ${horaEmMs}h ${minutoEmMs}m ${segundosAteOEvento}s `;
+    document.getElementById("timer").innerHTML = `${diasAteOEvento}d ${horasAteOEvento}h ${minutosAteOEvento}m ${segundosAteOEvento}s `;
 },1000);
 }
 
